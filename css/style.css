@@ -75,7 +75,7 @@ img {
 }
 
 .header-logo-blue {
-  color: #4d5ae5;
+  color: #404bbf;
   text-transform: uppercase;
   font-family: Raleway, sans-serif;
   font-size: 18px;
@@ -177,6 +177,7 @@ img {
 }
 
 .section-order-button {
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin-top: 48px;
   cursor: pointer;
 }
@@ -355,7 +356,7 @@ img {
 
 .social-link:hover,
 .social-link:focus {
-  background-color: #31d0aa;
+  background-color: #404bbf;
 }
 
 .social-link-icon {
