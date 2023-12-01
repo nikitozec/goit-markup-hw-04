@@ -65,13 +65,14 @@ img {
 
 .header-logo {
   color: #2e2f42;
-  text-transform: uppercase;
-  font-family: Raleway, sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
+  font-style: normal;
   font-weight: 700;
   line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-align: left;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  box-sizing: border-box;
 }
 
 .header-logo-blue {
@@ -278,15 +279,16 @@ img {
 }
 
 .title {
-  margin-top: 0;
-  margin-bottom: 72px;
-  text-transform: capitalize;
   color: #2e2f42;
+  text-align: center;
+  font-family: "Roboto";
   font-size: 36px;
+  font-style: normal;
   font-weight: 700;
   line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-align: center;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+  margin-bottom: 72px;
 }
 
 .team {
@@ -386,7 +388,7 @@ img {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio-item:hover .portfolio-text-container {
+.portfolio-item:hover .portfolio-text {
   transform: translateY(0%);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -412,12 +414,8 @@ img {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio-text {
-  width: 296px;
-  height: 96px;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.002em;
+.portfolio-text:hover {
+  transform: translateY(0%);
 }
 
 .app-container {
