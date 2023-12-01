@@ -92,6 +92,23 @@ img {
   display: flex;
 }
 
+.curent {
+  position: relative;
+  color: #404bbf;
+}
+
+.header-menu-link.curent::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  display: block;
+  bottom: -1px;
+  height: 4px;
+  background-color: #404bbf;
+  border-radius: 2px;
+}
+
 .header-menu-link {
   color: #404bbf;
   font-size: 16px;
@@ -450,7 +467,6 @@ img {
 .footer-container {
   display: flex;
   align-items: baseline;
-  margin-right: 120px;
 }
 
 .footer-logo {
